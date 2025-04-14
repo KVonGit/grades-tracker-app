@@ -1,0 +1,180 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background: #5cb85c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #4cae4c;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.student-list {
+  margin-top: 20px;
+}
+
+.student-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-card {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f0f7ff;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+.balance-controls {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-controls input {
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:first-child {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.buttons button:last-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 14px;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-container button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.student-dashboard, .teacher-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #3498db;
+}
+
+.student-list {
+    list-style: none;
+    padding: 0;
+}
+
+.student-list li {
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.transaction-history {
+    margin-top: 20px;
+}
+
+.transaction {
+    padding: 5px;
+    border: 1px solid #dddddd;
+    margin: 5px 0;
+}
+
+.student-dashboard h2 {
+  color: #2980b9;
+  display: inline-block;
+  background-color: #f9f9f9;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

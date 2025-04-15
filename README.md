@@ -1,7 +1,7 @@
 # Grades Tracker App
 
 ## Overview
-The Grades Tracker App is a web application designed for grade school teachers to manage student grades in a fun and engaging way. The app allows teachers to maintain a list of students, adjust their "account balances" based on test scores and behavior, and provides students with a way to log in and check their balances.
+The Grades Tracker App is a web application designed for grade school teachers to manage student grades in a fun and engaging way. The app allows teachers to maintain a list of students, adjust their overall scores based on test scores and behavior, and provides students with a way to log in and check their overall scores and history.
 
 ## Features
 - **Teacher Dashboard**: Teachers can manage student balances and view overall performance.
